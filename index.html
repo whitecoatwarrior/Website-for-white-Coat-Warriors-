@@ -822,6 +822,612 @@
             border-left: 4.05px solid var(--accent); /* Increased by 8% */
         }
 
+        /* Book Promotion Section Styles */
+        .book-promotion {
+            background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+            border-radius: var(--border-radius);
+            padding: 9.72px; /* Increased by 8% */
+            margin-bottom: 9.72px; /* Increased by 8% */
+            border-left: 4.05px solid var(--primary); /* Increased by 8% */
+        }
+
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 9.72px; /* Increased by 8% */
+            margin-top: 6.48px; /* Increased by 8% */
+        }
+
+        .book-card {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 6.48px; /* Increased by 8% */
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .book-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 3.24px 9.72px rgba(0, 0, 0, 0.1); /* Increased by 8% */
+        }
+
+        .book-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4.86px; /* Increased by 8% */
+        }
+
+        .book-icon {
+            width: 48.6px; /* Increased by 8% */
+            height: 64.8px; /* Increased by 8% */
+            background: var(--primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 3.24px; /* Increased by 8% */
+            margin-right: 6.48px; /* Increased by 8% */
+            box-shadow: 0 2.43px 4.86px rgba(0, 0, 0, 0.1); /* Increased by 8% */
+            font-size: 1.62rem; /* Increased by 8% */
+        }
+
+        .book-title {
+            font-size: 0.648rem; /* Increased by 8% */
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 1.62px; /* Increased by 8% */
+        }
+
+        .book-price {
+            font-size: 0.567rem; /* Increased by 8% */
+            margin-bottom: 1.62px; /* Increased by 8% */
+        }
+
+        .original-price {
+            text-decoration: line-through;
+            color: var(--text-secondary);
+            margin-right: 3.24px; /* Increased by 8% */
+        }
+
+        .discount-price {
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .book-features {
+            margin-top: 4.86px; /* Increased by 8% */
+        }
+
+        .book-features ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .book-features li {
+            font-size: 0.486rem; /* Increased by 8% */
+            margin-bottom: 1.62px; /* Increased by 8% */
+            display: flex;
+            align-items: flex-start;
+            gap: 4.05px; /* Increased by 8% */
+        }
+
+        .book-features li i {
+            color: var(--success);
+            margin-top: 0.81px; /* Increased by 8% */
+        }
+
+        .bundle-offer {
+            background: linear-gradient(135deg, #fff3e0, #ffcc80);
+            border-radius: var(--border-radius);
+            padding: 6.48px; /* Increased by 8% */
+            margin-top: 6.48px; /* Increased by 8% */
+            text-align: center;
+            border: 1px dashed var(--warning);
+        }
+
+        .bundle-title {
+            font-size: 0.648rem; /* Increased by 8% */
+            font-weight: 700;
+            color: var(--warning);
+            margin-bottom: 3.24px; /* Increased by 8% */
+        }
+
+        .bundle-price {
+            font-size: 0.567rem; /* Increased by 8% */
+        }
+
+        .bundle-savings {
+            font-size: 0.486rem; /* Increased by 8% */
+            color: var(--accent);
+            font-weight: 700;
+            margin-top: 1.62px; /* Increased by 8% */
+        }
+
+        /* Book Order Form Styles */
+        .book-order-form {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            margin-bottom: 6.48px; /* Increased by 8% */
+        }
+
+        .form-body {
+            padding: 9.72px; /* Increased by 8% */
+        }
+
+        .form-section {
+            margin-bottom: 12.15px; /* Increased by 8% */
+            padding-bottom: 9.72px; /* Increased by 8% */
+            border-bottom: 1px solid #eee;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 4.05px; /* Increased by 8% */
+            margin-bottom: 6.48px; /* Increased by 8% */
+            color: var(--secondary);
+            font-size: 0.648rem; /* Increased by 8% */
+        }
+
+        .section-icon {
+            background: var(--primary);
+            color: white;
+            width: 16.2px; /* Increased by 8% */
+            height: 16.2px; /* Increased by 8% */
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.486rem; /* Increased by 8% */
+        }
+
+        .form-group {
+            margin-bottom: 6.48px; /* Increased by 8% */
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 2.43px; /* Increased by 8% */
+            font-weight: 600;
+            color: var(--dark);
+            font-size: 0.486rem; /* Increased by 8% */
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"],
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 4.05px; /* Increased by 8% */
+            border: 1px solid #e9ecef;
+            border-radius: var(--border-radius);
+            font-size: 0.486rem; /* Increased by 8% */
+            transition: var(--transition);
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: var(--primary);
+            outline: none;
+            box-shadow: 0 0 0 1.62px rgba(67, 97, 238, 0.2); /* Increased by 8% */
+        }
+
+        .radio-group, .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6.48px; /* Increased by 8% */
+            margin-top: 4.05px; /* Increased by 8% */
+        }
+
+        .radio-option, .checkbox-option {
+            display: flex;
+            align-items: center;
+            gap: 2.43px; /* Increased by 8% */
+            cursor: pointer;
+            font-size: 0.486rem; /* Increased by 8% */
+        }
+
+        .radio-option input, .checkbox-option input {
+            width: 9.72px; /* Increased by 8% */
+            height: 9.72px; /* Increased by 8% */
+        }
+
+        .book-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 6.48px; /* Increased by 8% */
+            margin-top: 6.48px; /* Increased by 8% */
+        }
+
+        .book-option {
+            border: 1px solid #e9ecef;
+            border-radius: var(--border-radius);
+            padding: 6.48px; /* Increased by 8% */
+            transition: var(--transition);
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .book-option:hover {
+            border-color: var(--primary);
+            transform: translateY(-1.62px); /* Increased by 8% */
+            box-shadow: var(--shadow);
+        }
+
+        .book-option.selected {
+            border-color: var(--primary);
+            background: rgba(67, 97, 238, 0.05);
+        }
+
+        .book-option .book-title {
+            font-weight: 700;
+            font-size: 0.567rem; /* Increased by 8% */
+            margin-bottom: 4.05px; /* Increased by 8% */
+            color: var(--secondary);
+        }
+
+        .book-option .book-price {
+            font-size: 0.486rem; /* Increased by 8% */
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .book-option .book-discount {
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 0.405rem; /* Increased by 8% */
+        }
+
+        .book-option .book-original-price {
+            text-decoration: line-through;
+            color: var(--gray);
+            font-size: 0.405rem; /* Increased by 8% */
+            margin-right: 4.05px; /* Increased by 8% */
+        }
+
+        .form-submit-btn {
+            display: block;
+            width: 100%;
+            padding: 6.48px 12.15px; /* Increased by 8% */
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: var(--border-radius);
+            font-size: 0.486rem; /* Increased by 8% */
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-align: center;
+            margin-top: 9.72px; /* Increased by 8% */
+        }
+
+        .form-submit-btn:hover {
+            background: var(--secondary);
+            transform: translateY(-1px);
+            box-shadow: 0 1.62px 4.86px rgba(0, 0, 0, 0.1); /* Increased by 8% */
+        }
+
+        .confirmation-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 4.05px; /* Increased by 8% */
+            margin: 9.72px 0; /* Increased by 8% */
+            font-size: 0.486rem; /* Increased by 8% */
+        }
+
+        .confirmation-checkbox input {
+            width: 9.72px; /* Increased by 8% */
+            height: 9.72px; /* Increased by 8% */
+        }
+
+        .payment-info {
+            background: #f8f9fa;
+            padding: 6.48px; /* Increased by 8% */
+            border-radius: var(--border-radius);
+            margin: 6.48px 0; /* Increased by 8% */
+            font-size: 0.486rem; /* Increased by 8% */
+        }
+
+        .payment-info p {
+            margin-bottom: 2.43px; /* Increased by 8% */
+        }
+
+        /* About Us Enhanced Styles */
+        .about-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 9.72px; /* Increased by 8% */
+            margin-top: 9.72px; /* Increased by 8% */
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            padding: 9.72px; /* Increased by 8% */
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 3.24px 9.72px rgba(0, 0, 0, 0.1); /* Increased by 8% */
+        }
+
+        .feature-icon {
+            font-size: 1.62rem; /* Increased by 8% */
+            color: var(--primary);
+            margin-bottom: 6.48px; /* Increased by 8% */
+        }
+
+        .feature-title {
+            font-size: 0.648rem; /* Increased by 8% */
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 4.05px; /* Increased by 8% */
+        }
+
+        .feature-description {
+            font-size: 0.486rem; /* Increased by 8% */
+            color: var(--text-secondary);
+        }
+
+        /* Contact Us Enhanced Styles */
+        .contact-team {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 12.15px; /* Increased by 8% */
+        }
+
+        .team-head {
+            text-align: center;
+            margin-bottom: 9.72px; /* Increased by 8% */
+        }
+
+        .head-image {
+            width: 97.2px; /* Increased by 8% */
+            height: 97.2px; /* Increased by 8% */
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3.24px solid var(--primary); /* Increased by 8% */
+            margin-bottom: 6.48px; /* Increased by 8% */
+            box-shadow: 0 3.24px 9.72px rgba(0, 0, 0, 0.2); /* Increased by 8% */
+        }
+
+        .head-name {
+            font-size: 0.729rem; /* Increased by 8% */
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 1.62px; /* Increased by 8% */
+        }
+
+        .head-title {
+            font-size: 0.567rem; /* Increased by 8% */
+            color: var(--text-secondary);
+        }
+
+        .team-members {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 9.72px; /* Increased by 8% */
+            margin-top: 9.72px; /* Increased by 8% */
+        }
+
+        .team-member {
+            text-align: center;
+        }
+
+        .member-image {
+            width: 64.8px; /* Increased by 8% */
+            height: 64.8px; /* Increased by 8% */
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2.43px solid var(--secondary); /* Increased by 8% */
+            margin-bottom: 3.24px; /* Increased by 8% */
+            box-shadow: 0 2.43px 6.48px rgba(0, 0, 0, 0.1); /* Increased by 8% */
+        }
+
+        .member-name {
+            font-size: 0.486rem; /* Increased by 8% */
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        /* Dr. Hira Section */
+        .dr-hira-section {
+            display: flex;
+            align-items: center;
+            gap: 9.72px; /* Increased by 8% */
+            background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+            border-radius: var(--border-radius);
+            padding: 9.72px; /* Increased by 8% */
+            margin-bottom: 9.72px; /* Increased by 8% */
+        }
+
+        .dr-hira-image {
+            width: 97.2px; /* Increased by 8% */
+            height: 97.2px; /* Increased by 8% */
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3.24px solid var(--primary); /* Increased by 8% */
+            box-shadow: 0 3.24px 9.72px rgba(0, 0, 0, 0.2); /* Increased by 8% */
+        }
+
+        .dr-hira-info {
+            flex: 1;
+        }
+
+        .dr-hira-name {
+            font-size: 0.729rem; /* Increased by 8% */
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 3.24px; /* Increased by 8% */
+        }
+
+        .dr-hira-title {
+            font-size: 0.567rem; /* Increased by 8% */
+            color: var(--text-secondary);
+            margin-bottom: 4.05px; /* Increased by 8% */
+        }
+
+        .dr-hira-description {
+            font-size: 0.486rem; /* Increased by 8% */
+            color: var(--text-primary);
+        }
+
+        /* FAQ Styles */
+        .faq-container {
+            margin-top: 9.72px; /* Increased by 8% */
+        }
+
+        .faq-item {
+            margin-bottom: 6.48px; /* Increased by 8% */
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 6.48px 9.72px; /* Increased by 8% */
+            background: var(--light);
+            font-weight: 600;
+            font-size: 0.567rem; /* Increased by 8% */
+            color: var(--primary);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-answer {
+            padding: 6.48px 9.72px; /* Increased by 8% */
+            font-size: 0.486rem; /* Increased by 8% */
+            background: var(--card-bg);
+            display: none;
+        }
+
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+
+        /* Student Success Styles */
+        .student-success-section {
+            background: linear-gradient(135deg, #f0f4ff, #e6eeff);
+            border-radius: var(--border-radius);
+            padding: 9.72px; /* Increased by 8% */
+            margin-bottom: 9.72px; /* Increased by 8% */
+            border-left: 4.05px solid var(--success); /* Increased by 8% */
+        }
+
+        .student-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 6.48px; /* Increased by 8% */
+            margin-top: 6.48px; /* Increased by 8% */
+        }
+
+        .student-card {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 6.48px; /* Increased by 8% */
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .student-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2.43px 6.48px rgba(0, 0, 0, 0.1); /* Increased by 8% */
+        }
+
+        .student-avatar {
+            width: 48.6px; /* Increased by 8% */
+            height: 48.6px; /* Increased by 8% */
+            border-radius: 50%;
+            background: var(--primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 3.24px; /* Increased by 8% */
+            font-size: 1.215rem; /* Increased by 8% */
+        }
+
+        .student-name {
+            font-weight: 700;
+            font-size: 0.486rem; /* Increased by 8% */
+            color: var(--primary);
+            margin-bottom: 1.62px; /* Increased by 8% */
+        }
+
+        .student-score {
+            font-size: 0.405rem; /* Increased by 8% */
+            color: var(--success);
+            font-weight: 600;
+            margin-bottom: 1.62px; /* Increased by 8% */
+        }
+
+        .student-instructor {
+            font-size: 0.405rem; /* Increased by 8% */
+            color: var(--text-secondary);
+        }
+
+        /* Service Details Styles */
+        .service-details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 9.72px; /* Increased by 8% */
+            margin-top: 9.72px; /* Increased by 8% */
+        }
+
+        .service-detail-card {
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            padding: 9.72px; /* Increased by 8% */
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .service-detail-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 3.24px 9.72px rgba(0, 0, 0, 0.1); /* Increased by 8% */
+        }
+
+        .service-icon {
+            font-size: 1.62rem; /* Increased by 8% */
+            color: var(--primary);
+            margin-bottom: 6.48px; /* Increased by 8% */
+        }
+
+        .service-title {
+            font-size: 0.648rem; /* Increased by 8% */
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 4.05px; /* Increased by 8% */
+        }
+
+        .service-description {
+            font-size: 0.486rem; /* Increased by 8% */
+            color: var(--text-secondary);
+            margin-bottom: 4.05px; /* Increased by 8% */
+        }
+
+        .service-importance {
+            font-size: 0.486rem; /* Increased by 8% */
+            color: var(--success);
+            font-weight: 600;
+        }
+
         /* Responsive Design */
         @media (max-width: 1200px) {
             .grid-3 {
@@ -859,6 +1465,11 @@
             .nav-btn {
                 width: 100%;
                 justify-content: flex-start;
+            }
+
+            .dr-hira-section {
+                flex-direction: column;
+                text-align: center;
             }
         }
 
@@ -908,6 +1519,10 @@
             .form-row {
                 flex-direction: column;
                 gap: 3.24px; /* Increased by 8% */
+            }
+
+            .book-options {
+                grid-template-columns: 1fr;
             }
         }
 
@@ -1024,6 +1639,10 @@
                     <i class="fas fa-brain"></i>
                     <span>Logical Reasoning Quiz List</span>
                 </button>
+                <button class="nav-btn" data-tab="books">
+                    <i class="fas fa-book"></i>
+                    <span>Buy Books</span>
+                </button>
                 <button class="nav-btn" data-tab="password">
                     <i class="fas fa-key"></i>
                     <span>Password Tabs</span>
@@ -1075,6 +1694,198 @@
                 </div>
                 
                 <div class="homepage-content">
+                    <!-- Dr. Hira Section -->
+                    <div class="dr-hira-section">
+                        <img src="https://i.ibb.co/Kpd0TM2w/1762769156201.jpg" alt="Dr. Hira Usman" class="dr-hira-image">
+                        <div class="dr-hira-info">
+                            <div class="dr-hira-name">Dr. Hira Usman</div>
+                            <div class="dr-hira-title">Head of White Coat Warriors</div>
+                            <div class="dr-hira-description">
+                                Dr. Hira Usman is the visionary leader and founder of White Coat Warriors, a dedicated platform for MDCAT preparation. With years of experience in medical education and a passion for teaching, she has helped thousands of students achieve their dreams of becoming doctors. Dr. Hira's innovative teaching methods and comprehensive study materials have made White Coat Warriors one of the most trusted names in MDCAT preparation in Pakistan.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Book Promotion Section -->
+                    <div class="book-promotion">
+                        <h3>📚 Premium MDCAT Preparation Books</h3>
+                        <p>Enhance your MDCAT preparation with our specially designed books that cover the entire syllabus with precision and clarity.</p>
+                        
+                        <div class="book-grid">
+                            <div class="book-card">
+                                <div class="book-header">
+                                    <div class="book-icon">
+                                        <i class="fas fa-book-medical"></i>
+                                    </div>
+                                    <div>
+                                        <div class="book-title">MDCAT Game Changer</div>
+                                        <div class="book-price">
+                                            <span class="original-price">Rs. 3000</span>
+                                            <span class="discount-price">Rs. 2400</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="book-features">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Pakistan's First Shortlisting Book</li>
+                                        <li><i class="fas fa-check"></i> Quick & Effective Revision</li>
+                                        <li><i class="fas fa-check"></i> Covers All MDCAT Subjects</li>
+                                        <li><i class="fas fa-check"></i> Shortlisted Points from All Textbooks</li>
+                                        <li><i class="fas fa-check"></i> Perfect for Last-Minute Preparation</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="book-card">
+                                <div class="book-header">
+                                    <div class="book-icon">
+                                        <i class="fas fa-book-open"></i>
+                                    </div>
+                                    <div>
+                                        <div class="book-title">Mission MDCAT</div>
+                                        <div class="book-price">
+                                            <span class="original-price">Rs. 5000</span>
+                                            <span class="discount-price">Rs. 4000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="book-features">
+                                    <ul>
+                                        <li><i class="fas fa-check"></i> Complete MDCAT Preparation Guide</li>
+                                        <li><i class="fas fa-check"></i> Comprehensive Notes & Practice Material</li>
+                                        <li><i class="fas fa-check"></i> Covers All Provincial Textbooks</li>
+                                        <li><i class="fas fa-check"></i> All-in-One Solution</li>
+                                        <li><i class="fas fa-check"></i> Nationwide Relevance & Accuracy</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bundle-offer">
+                            <div class="bundle-title">✨ Bundle Offer</div>
+                            <div class="bundle-price">
+                                <span class="original-price">Original Total: Rs. 8000</span>
+                                <span class="discount-price">After Discount: Rs. 6200</span>
+                            </div>
+                            <div class="bundle-savings">Save Rs. 1800 with this special bundle!</div>
+                        </div>
+                        
+                        <p style="margin-top: 6.48px; text-align: center;">
+                            <button id="homepage-order-button" class="btn btn-primary" style="display: inline-block;">
+                                <i class="fas fa-shopping-cart"></i> Order Your Books Now
+                            </button>
+                        </p>
+                    </div>
+
+                    <!-- Student Success Section -->
+                    <div class="student-success-section">
+                        <h3>🎉 Our Students' Outstanding Results</h3>
+                        <p>The following students achieved excellent marks in MDCAT using our books and resources, proving the effectiveness of our study materials:</p>
+                        
+                        <h4 style="margin-top: 9.72px; color: var(--primary);">MDCAT 2024 Results</h4>
+                        <div class="student-grid">
+                            <div class="student-card">
+                                <div class="student-avatar">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="student-name">Areeba Noor</div>
+                                <div class="student-score">194/200</div>
+                                <div class="student-instructor">OR, HINA USMAN</div>
+                            </div>
+                            <div class="student-card">
+                                <div class="student-avatar">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="student-name">Kainat Abdullah</div>
+                                <div class="student-score">188/200</div>
+                            </div>
+                            <div class="student-card">
+                                <div class="student-avatar">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="student-name">Mirza Fiaz Baig</div>
+                                <div class="student-score">191/200</div>
+                            </div>
+                            <div class="student-card">
+                                <div class="student-avatar">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="student-name">Alla liaz</div>
+                                <div class="student-score">190/200</div>
+                            </div>
+                            <div class="student-card">
+                                <div class="student-avatar">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="student-name">Faisal Javeed</div>
+                                <div class="student-score">194/200</div>
+                            </div>
+                            <div class="student-card">
+                                <div class="student-avatar">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="student-name">Jahanzaib liagat</div>
+                                <div class="student-score">193/200</div>
+                            </div>
+                        </div>
+                        
+                        <h4 style="margin-top: 9.72px; color: var(--primary);">MDCAT 2025 Results</h4>
+                        <div class="student-grid">
+                            <div class="student-card">
+                                <div class="student-avatar">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="student-name">M. Akmal Ghufran</div>
+                                <div class="student-score">175/200</div>
+                                <div class="student-instructor">Aggregate: 97.22%</div>
+                            </div>
+                            <div class="student-card">
+                                <div class="student-avatar">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="student-name">Taha Sohail</div>
+                                <div class="student-score">173/200</div>
+                                <div class="student-instructor">Aggregate: 96.11%</div>
+                            </div>
+                            <div class="student-card">
+                                <div class="student-avatar">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="student-name">Igra Farooq</div>
+                                <div class="student-score">171/200</div>
+                                <div class="student-instructor">Aggregate: 95%+</div>
+                            </div>
+                            <div class="student-card">
+                                <div class="student-avatar">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="student-name">Tahreem Karamat</div>
+                                <div class="student-score">165/200</div>
+                                <div class="student-instructor">Aggregate: 91.66%+</div>
+                            </div>
+                            <div class="student-card">
+                                <div class="student-avatar">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="student-name">M. Basit Ahmed</div>
+                                <div class="student-score">172/200</div>
+                                <div class="student-instructor">Aggregate: 95.56%+</div>
+                            </div>
+                            <div class="student-card">
+                                <div class="student-avatar">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="student-name">Marwa Riaz</div>
+                                <div class="student-score">170/200</div>
+                                <div class="student-instructor">Aggregate: 95.18%+</div>
+                            </div>
+                        </div>
+                        
+                        <p style="margin-top: 9.72px; text-align: center; font-weight: 600; color: var(--success);">
+                            Join our successful students and achieve your dream of becoming a doctor with our proven study materials!
+                        </p>
+                    </div>
+                    
                     <div class="homepage-section">
                         <h3>About White Coat Warriors</h3>
                         <p>White Coat Warriors is a dedicated group of doctors from Pakistan committed to educating and guiding medical students to successfully pass the MDCAT examination and secure admission into MBBS programs. Our mission is to provide comprehensive educational resources, strategic guidance, and personalized support to help aspiring medical students achieve their dreams of becoming healthcare professionals.</p>
@@ -1132,26 +1943,145 @@
                     </div>
                     
                     <div class="homepage-section">
-                        <h3>Our Comprehensive Study Materials</h3>
-                        <p>We provide a wide range of educational resources to help you prepare effectively for the MDCAT:</p>
+                        <h3>Our Comprehensive Study Materials - Detailed Overview</h3>
+                        <p>We provide a wide range of educational resources to help you prepare effectively for the MDCAT. Each service is designed with specific learning objectives and benefits:</p>
                         
-                        <ul class="services-list">
-                            <li><i class="fas fa-check-circle"></i> <strong>Weekly Test Series:</strong> Regular assessments to track your progress</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>Comprehensive Study Notes:</strong> Detailed subject-wise notes covering the entire syllabus</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>Monthly Assessment Tests:</strong> Full-length mock tests to simulate the actual exam environment</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>Full Syllabus Mock Tests:</strong> Complete practice tests covering all subjects</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>Detailed Subject Notes:</strong> Chapter-wise notes with important concepts and formulas</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>WhatsApp Discussion Groups:</strong> Interactive groups for doubt clearing and peer learning</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>YouTube Educational Lectures:</strong> Video lectures by experienced faculty</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>Complete Syllabus Practice Tests:</strong> Topic-wise tests for focused preparation</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>PDF Books and Study Materials:</strong> Downloadable resources for offline study</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>MDCAT Syllabus Question Banks:</strong> Extensive question banks with detailed solutions</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>English Grammar Rules and Tests:</strong> Specialized resources for English preparation</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>Logical Reasoning Tricks and Mock Tests:</strong> Strategies and practice for logical reasoning</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>Performance Analytics:</strong> Detailed analysis of your strengths and weaknesses</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>Personalized Study Plans:</strong> Customized schedules based on your preparation level</li>
-                            <li><i class="fas fa-check-circle"></i> <strong>Doubt Clearing Sessions:</strong> Regular sessions with subject experts</li>
-                        </ul>
+                        <div class="service-details-grid">
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="service-title">Weekly Test Series</div>
+                                <div class="service-description">Regular assessments designed to track your progress systematically and identify areas for improvement.</div>
+                                <div class="service-importance">Importance: Builds exam temperament and helps in consistent practice.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <div class="service-title">Comprehensive Study Notes</div>
+                                <div class="service-description">Detailed subject-wise notes covering the entire syllabus with simplified explanations.</div>
+                                <div class="service-importance">Importance: Saves time and provides focused learning material.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-clipboard-check"></i>
+                                </div>
+                                <div class="service-title">Monthly Assessment Tests</div>
+                                <div class="service-description">Full-length mock tests to simulate the actual exam environment and build stamina.</div>
+                                <div class="service-importance">Importance: Helps in time management and reduces exam anxiety.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="service-title">Full Syllabus Mock Tests</div>
+                                <div class="service-description">Complete practice tests covering all subjects to evaluate overall preparation.</div>
+                                <div class="service-importance">Importance: Identifies weak areas and improves overall performance.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-sticky-note"></i>
+                                </div>
+                                <div class="service-title">Detailed Subject Notes</div>
+                                <div class="service-description">Chapter-wise notes with important concepts, formulas, and diagrams.</div>
+                                <div class="service-importance">Importance: Facilitates quick revision and better retention.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="service-title">WhatsApp Discussion Groups</div>
+                                <div class="service-description">Interactive groups for doubt clearing, peer learning, and motivation.</div>
+                                <div class="service-importance">Importance: Creates a supportive learning community.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                                <div class="service-title">YouTube Educational Lectures</div>
+                                <div class="service-description">Video lectures by experienced faculty with visual explanations.</div>
+                                <div class="service-importance">Importance: Enhances understanding through visual learning.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-tasks"></i>
+                                </div>
+                                <div class="service-title">Complete Syllabus Practice Tests</div>
+                                <div class="service-description">Topic-wise tests for focused preparation on specific areas.</div>
+                                <div class="service-importance">Importance: Strengthens weak topics systematically.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-file-pdf"></i>
+                                </div>
+                                <div class="service-title">PDF Books and Study Materials</div>
+                                <div class="service-description">Downloadable resources for offline study and flexible learning.</div>
+                                <div class="service-importance">Importance: Enables studying anytime, anywhere.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="service-title">MDCAT Syllabus Question Banks</div>
+                                <div class="service-description">Extensive question banks with detailed solutions and explanations.</div>
+                                <div class="service-importance">Importance: Provides ample practice for all question types.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-language"></i>
+                                </div>
+                                <div class="service-title">English Grammar Rules and Tests</div>
+                                <div class="service-description">Specialized resources for English preparation with grammar rules and practice tests.</div>
+                                <div class="service-importance">Importance: Improves English proficiency for the exam.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div class="service-title">Logical Reasoning Tricks and Mock Tests</div>
+                                <div class="service-description">Strategies and practice for logical reasoning with shortcut techniques.</div>
+                                <div class="service-importance">Importance: Enhances problem-solving speed and accuracy.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <div class="service-title">Performance Analytics</div>
+                                <div class="service-description">Detailed analysis of your strengths and weaknesses with improvement suggestions.</div>
+                                <div class="service-importance">Importance: Provides data-driven insights for focused preparation.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <div class="service-title">Personalized Study Plans</div>
+                                <div class="service-description">Customized schedules based on your preparation level and available time.</div>
+                                <div class="service-importance">Importance: Ensures systematic and organized preparation.</div>
+                            </div>
+                            
+                            <div class="service-detail-card">
+                                <div class="service-icon">
+                                    <i class="fas fa-question-circle"></i>
+                                </div>
+                                <div class="service-title">Doubt Clearing Sessions</div>
+                                <div class="service-description">Regular sessions with subject experts to resolve conceptual difficulties.</div>
+                                <div class="service-importance">Importance: Clarifies concepts and builds confidence.</div>
+                            </div>
+                        </div>
                     </div>
                     
                     <div class="homepage-section">
@@ -1163,6 +2093,314 @@
                             <li><strong>Exam Simulation:</strong> Preparing for the actual test environment through timed mock tests</li>
                         </ol>
                         <p>Our structured approach has helped hundreds of students achieve their dream of becoming medical professionals. With consistent effort and our expert guidance, you can join the ranks of successful White Coat Warriors.</p>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="homepage-section">
+                        <h3>Frequently Asked Questions</h3>
+                        <p>Find answers to the most common questions about our services, quizzes, books, and more.</p>
+                        
+                        <div class="faq-container">
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How can I access the quizzes?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    All our premium quizzes are password protected. You need to contact our team at +92370 3843276 to get access codes for the quizzes.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What subjects are covered in your quizzes?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    We cover all MDCAT subjects: Biology, Chemistry, Physics, English, and Logical Reasoning with comprehensive chapter-wise quizzes.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How can I order your books?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    You can order our books through the "Buy Books" tab on this portal. Fill out the order form and make payment through EasyPaisa or JazzCash.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What is the difference between MDCAT Game Changer and Mission MDCAT?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    MDCAT Game Changer is Pakistan's first shortlisting book perfect for quick revision, while Mission MDCAT is a comprehensive guide covering the entire syllabus in detail.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How can I contact Dr. Hira Usman?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    You can contact Dr. Hira Usman through WhatsApp at +92370 3843276 or email at whitecoatwarrior373@gmail.com.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Do you provide delivery services for books?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Yes, we provide delivery services all across Pakistan. Books are delivered through courier services after order confirmation.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What payment methods do you accept?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    We accept payments through EasyPaisa and JazzCash. The account details are provided in the book order form.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How many questions are in each quiz?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Biology quizzes contain 80 MCQs, while Chemistry, Physics, English, and Logical Reasoning quizzes contain 50 MCQs each.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Are the quizzes timed?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Yes, all quizzes are timed to simulate the actual MDCAT exam environment. Biology quizzes have 80 minutes, others have 50 minutes.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Can I get a refund for the books?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    We have a return policy within 7 days of delivery if the book is damaged or has printing errors.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Do you offer discounts for bulk orders?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Yes, we offer special discounts for academy and institutional bulk orders. Contact us for details.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How updated are your quiz questions?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Our quiz questions are regularly updated according to the latest MDCAT patterns and syllabus changes.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Can I access quizzes on mobile devices?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Yes, our quiz portal is fully responsive and works perfectly on mobile devices, tablets, and computers.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Do you provide solutions for quiz questions?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Yes, all quizzes come with detailed explanations for each question to enhance conceptual understanding.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How can I track my progress?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Our system provides detailed performance analytics showing your strengths, weaknesses, and improvement over time.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Are your books available in bookstores?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Currently, our books are only available through our official portal and authorized representatives.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Do you offer installment plans for book payments?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    We don't offer installment plans currently. Full payment is required before book delivery.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How long does delivery take?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Delivery usually takes 3-7 working days depending on your location in Pakistan.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Can I get sample chapters before purchasing books?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Yes, we can provide sample chapters upon request. Contact us through WhatsApp for samples.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Do you offer online classes?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Yes, we offer online classes through our YouTube channel and live sessions on Zoom.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How can I reset my quiz password?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Contact our support team at +92370 3843276 for password reset or any access issues.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Are your study materials aligned with PMC guidelines?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Yes, all our study materials are strictly aligned with PMC guidelines and the latest MDCAT syllabus.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Do you provide career counseling?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Yes, we provide career counseling and guidance for medical college admissions.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Can I share my quiz access with friends?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    No, quiz access is personalized and should not be shared. Each student needs their own access code.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How often are new quizzes added?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    New quizzes are added regularly, usually on a weekly basis, covering various topics and difficulty levels.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Do you have physical centers for classes?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    We primarily operate online, but we do have partnerships with some physical academies in major cities.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    What is the success rate of your students?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Our students have an excellent success rate with many achieving 190+ marks in MDCAT as shown in our results section.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Can I get customized study plans?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Yes, we provide personalized study plans based on your strengths, weaknesses, and available time.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    How can I provide feedback about your services?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    You can provide feedback through WhatsApp, email, or directly to our team members. We value your input.
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    Do you offer scholarships?
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    We offer limited scholarships to deserving students based on merit and financial need.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     
                     <div class="quiz-access-info">
@@ -1197,6 +2435,9 @@
                         <a href="https://wa.me/923247012882" class="contact-developer" target="_blank">
                             <i class="fab fa-whatsapp"></i> Contact Developer on WhatsApp: 03247012882
                         </a>
+                        <p style="margin-top: 4.86px; font-size: 0.405rem; color: var(--text-secondary);">
+                            If you want to receive complete session quizzes or want to make sessions for your academies, please message him on WhatsApp.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -1310,6 +2551,247 @@
             </div>
         </div>
 
+        <!-- Buy Books Tab -->
+        <div class="tab-content" id="books-tab">
+            <div class="panel fade-in" id="book-order-form-panel">
+                <div class="panel-header">
+                    <h3 class="panel-title"><i class="fas fa-book"></i> Buy Books</h3>
+                </div>
+                
+                <div class="book-order-form">
+                    <form class="form-body" id="book-order-form">
+                        <div class="form-section">
+                            <div class="section-title">
+                                <div class="section-icon">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <h3>Personal Information</h3>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="fatherName">Father's Name</label>
+                                <input type="text" id="fatherName" name="fatherName" placeholder="Enter your father's name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="whatsapp">Active WhatsApp Number</label>
+                                <input type="tel" id="whatsapp" name="whatsapp" placeholder="Enter your WhatsApp number" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="alternateContact">Alternate Contact Number</label>
+                                <input type="tel" id="alternateContact" name="alternateContact" placeholder="In case the rider cannot reach you on your primary number">
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <div class="section-title">
+                                <div class="section-icon">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                <h3>Delivery Address</h3>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="province">Province</label>
+                                <select id="province" name="province" required>
+                                    <option value="">Select your province</option>
+                                    <option value="punjab">Punjab</option>
+                                    <option value="sindh">Sindh</option>
+                                    <option value="kpk">Khyber Pakhtunkhwa</option>
+                                    <option value="balochistan">Balochistan</option>
+                                    <option value="islamabad">Islamabad Capital Territory</option>
+                                    <option value="gilgit">Gilgit-Baltistan</option>
+                                    <option value="ajk">Azad Jammu & Kashmir</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="city">City</label>
+                                <input type="text" id="city" name="city" placeholder="Enter your city" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="area">Area / Street / Sector</label>
+                                <input type="text" id="area" name="area" placeholder="Enter your area, street or sector" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="house">House No. / Apartment / Block</label>
+                                <input type="text" id="house" name="house" placeholder="Enter house number, apartment or block" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="completeAddress">Complete Address</label>
+                                <textarea id="completeAddress" name="completeAddress" rows="2" placeholder="Please write your full delivery address clearly" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <div class="section-title">
+                                <div class="section-icon">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <h3>Book Selection</h3>
+                            </div>
+
+                            <div class="book-options">
+                                <div class="book-option" onclick="selectBook(this)">
+                                    <div class="book-title">Mission MDCAT</div>
+                                    <div class="book-price">Price: Rs. 4,000</div>
+                                </div>
+
+                                <div class="book-option" onclick="selectBook(this)">
+                                    <div class="book-title">MDCAT Game Changer</div>
+                                    <div class="book-price">Price: Rs. 2,400</div>
+                                </div>
+
+                                <div class="book-option" onclick="selectBook(this)">
+                                    <div class="book-title">Bundle Offer (Both Books)</div>
+                                    <div class="book-price">
+                                        <span class="book-original-price">Rs. 6,400</span>
+                                        <span class="book-discount">Rs. 6,200</span>
+                                    </div>
+                                    <div class="book-discount">Save Rs. 200!</div>
+                                </div>
+                            </div>
+                            <input type="hidden" id="selectedBook" name="selectedBook" value="">
+                        </div>
+
+                        <div class="form-section">
+                            <div class="section-title">
+                                <div class="section-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <h3>Student Information</h3>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Have you used our books before?</label>
+                                <div class="radio-group">
+                                    <div class="radio-option">
+                                        <input type="radio" id="usedBeforeYes" name="usedBefore" value="Yes" required>
+                                        <label for="usedBeforeYes">Yes</label>
+                                    </div>
+                                    <div class="radio-option">
+                                        <input type="radio" id="usedBeforeNo" name="usedBefore" value="No" required>
+                                        <label for="usedBeforeNo">No</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Are you a White Coat Warriors student?</label>
+                                <div class="radio-group">
+                                    <div class="radio-option">
+                                        <input type="radio" id="studentYes" name="student" value="Yes" required>
+                                        <label for="studentYes">Yes</label>
+                                    </div>
+                                    <div class="radio-option">
+                                        <input type="radio" id="studentNo" name="student" value="No" required>
+                                        <label for="studentNo">No</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <div class="section-title">
+                                <div class="section-icon">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <h3>How did you hear about our books?</h3>
+                            </div>
+
+                            <div class="checkbox-group">
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="sourceInstagramAds" name="source" value="Instagram Ads">
+                                    <label for="sourceInstagramAds">Instagram Ads</label>
+                                </div>
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="sourceInstagramReels" name="source" value="Instagram Reels">
+                                    <label for="sourceInstagramReels">Instagram Reels</label>
+                                </div>
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="sourceYouTubeLong" name="source" value="YouTube Long Videos">
+                                    <label for="sourceYouTubeLong">YouTube Long Videos</label>
+                                </div>
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="sourceYouTubeShorts" name="source" value="YouTube Shorts">
+                                    <label for="sourceYouTubeShorts">YouTube Shorts</label>
+                                </div>
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="sourceWhatsApp" name="source" value="WhatsApp Channel">
+                                    <label for="sourceWhatsApp">WhatsApp Channel</label>
+                                </div>
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="sourceFriend" name="source" value="Friend / Classmate">
+                                    <label for="sourceFriend">Friend / Classmate</label>
+                                </div>
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="sourceOther" name="source" value="Other">
+                                    <label for="sourceOther">Other (please specify):</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="otherSource" name="otherSource" placeholder="Please specify other source" style="display: none;">
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <div class="section-title">
+                                <div class="section-icon">
+                                    <i class="fas fa-credit-card"></i>
+                                </div>
+                                <h3>Payment Details</h3>
+                            </div>
+
+                            <div class="form-group">
+                                <p>Please send your payment to the following account before submitting your form:</p>
+                                <div class="payment-info">
+                                    <p><strong>Account Title:</strong> Faria Usman</p>
+                                    <p><strong>EasyPaisa / JazzCash Number:</strong> +92 309 2812039</p>
+                                </div>
+                                <p>After completing the payment, enter your transaction ID below:</p>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="transactionId">Transaction ID</label>
+                                <input type="text" id="transactionId" name="transactionId" placeholder="Enter your transaction ID" required>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <div class="section-title">
+                                <div class="section-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <h3>Order Confirmation</h3>
+                            </div>
+
+                            <div class="confirmation-checkbox">
+                                <input type="checkbox" id="confirmation" name="confirmation" required>
+                                <label for="confirmation">I confirm that all the information provided above is accurate and complete.</label>
+                            </div>
+
+                            <button type="submit" class="form-submit-btn">Submit Order</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <!-- Password Tab -->
         <div class="tab-content" id="password-tab">
             <div class="panel fade-in">
@@ -1387,6 +2869,9 @@
                         <a href="https://wa.me/923247012882" class="contact-developer" target="_blank">
                             <i class="fab fa-whatsapp"></i> Contact Developer on WhatsApp: 03247012882
                         </a>
+                        <p style="margin-top: 4.86px; font-size: 0.405rem; color: var(--text-secondary);">
+                            If you want to receive complete session quizzes or want to make sessions for your academies, please message him on WhatsApp.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -1404,6 +2889,71 @@
                         <h3>Our Mission</h3>
                         <p>White Coat Warriors is dedicated to transforming medical education in Pakistan by providing comprehensive, accessible, and high-quality resources for MDCAT preparation. We believe that every aspiring medical student deserves the opportunity to receive quality education and guidance, regardless of their background or resources.</p>
                         <p>Our mission extends beyond just helping students pass the MDCAT. We aim to cultivate future healthcare professionals who are not only knowledgeable but also compassionate, ethical, and committed to serving humanity.</p>
+                    </div>
+                    
+                    <div class="homepage-section">
+                        <h3>Our Services</h3>
+                        <div class="about-features">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <div class="feature-title">Premium Books</div>
+                                <div class="feature-description">
+                                    High-quality MDCAT preparation books including "Mission MDCAT" and "MDCAT Game Changer" with comprehensive content and strategic approaches.
+                                </div>
+                            </div>
+                            
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-question-circle"></i>
+                                </div>
+                                <div class="feature-title">Practice Quizzes</div>
+                                <div class="feature-description">
+                                    Extensive collection of subject-wise quizzes with detailed explanations to strengthen conceptual understanding and exam readiness.
+                                </div>
+                            </div>
+                            
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                </div>
+                                <div class="feature-title">Expert Guidance</div>
+                                <div class="feature-description">
+                                    Personalized mentorship from experienced doctors and medical professionals who understand the MDCAT examination process.
+                                </div>
+                            </div>
+                            
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="feature-title">Community Support</div>
+                                <div class="feature-description">
+                                    Active WhatsApp groups and discussion forums where students can interact, share knowledge, and solve doubts together.
+                                </div>
+                            </div>
+                            
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="feature-title">Video Lectures</div>
+                                <div class="feature-description">
+                                    Comprehensive video content covering the entire MDCAT syllabus with clear explanations and visual aids for better understanding.
+                                </div>
+                            </div>
+                            
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="feature-title">Progress Tracking</div>
+                                <div class="feature-description">
+                                    Detailed analytics and performance reports to help students identify strengths, weaknesses, and track improvement over time.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     
                     <div class="homepage-section">
@@ -1443,6 +2993,9 @@
                         <a href="https://wa.me/923247012882" class="contact-developer" target="_blank">
                             <i class="fab fa-whatsapp"></i> Contact Developer on WhatsApp: 03247012882
                         </a>
+                        <p style="margin-top: 4.86px; font-size: 0.405rem; color: var(--text-secondary);">
+                            If you want to receive complete session quizzes or want to make sessions for your academies, please message him on WhatsApp.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -1456,6 +3009,33 @@
                 </div>
                 
                 <div class="homepage-content">
+                    <div class="contact-team">
+                        <div class="team-head">
+                            <img src="https://i.ibb.co/Kpd0TM2w/1762769156201.jpg" alt="Dr. Hira Usman" class="head-image">
+                            <div class="head-name">Dr. Hira Usman</div>
+                            <div class="head-title">Head of White Coat Warriors</div>
+                        </div>
+                        
+                        <div class="team-members">
+                            <div class="team-member">
+                                <img src="https://i.ibb.co/LhXfx1GT/images-6.jpg" alt="Dr. Ayesha" class="member-image">
+                                <div class="member-name">Dr. Ayesha</div>
+                            </div>
+                            <div class="team-member">
+                                <img src="https://i.ibb.co/G66tzCb/images-3.jpg" alt="Dr. Fatima" class="member-image">
+                                <div class="member-name">Dr. Fatima</div>
+                            </div>
+                            <div class="team-member">
+                                <img src="https://i.ibb.co/Z603V15S/images-4.jpg" alt="Dr. Sana" class="member-image">
+                                <div class="member-name">Dr. Sana</div>
+                            </div>
+                            <div class="team-member">
+                                <img src="https://i.ibb.co/mVMnm75V/images-5.jpg" alt="Dr. Mariam" class="member-image">
+                                <div class="member-name">Dr. Mariam</div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="homepage-section">
                         <h3>Get in Touch</h3>
                         <p>If you have any questions about our courses, need assistance with your MDCAT preparation, or want to know more about our services, please feel free to contact us through any of the following channels:</p>
@@ -1541,6 +3121,9 @@
                         <a href="https://wa.me/923247012882" class="contact-developer" target="_blank">
                             <i class="fab fa-whatsapp"></i> Contact Developer on WhatsApp: 03247012882
                         </a>
+                        <p style="margin-top: 4.86px; font-size: 0.405rem; color: var(--text-secondary);">
+                            If you want to receive complete session quizzes or want to make sessions for your academies, please message him on WhatsApp.
+                        </p>
                         <p style="margin-top: 4.86px;">Or send an email to: 
                             <button class="btn btn-info" id="dev-email-button" style="margin-left: 4.86px; padding: 2.43px 4.86px;">
                                 <i class="fas fa-envelope"></i> Developer Email
@@ -1631,8 +3214,8 @@
             { id: "WCW-ENG-05", chapter: "Phrases & Transitional Devices", subject: "English", url: "https://whitecoatwarrior.github.io/automatic-guacamole/", questions: 50, time: 50, password: "WCW-SCM-624589" },
             
             // Logical Reasoning Quizzes
-            { id: "WCW-LR-01", chapter: "Critical Thinking", subject: "Logical Reasoning", url: "https://whitecoatwarrior.github.io/glowing-journey/", questions: 50, time: 50, password: "WCW-PRD-135792" },
-            { id: "WCW-LR-02", chapter: "Relation Predict Base", subject: "Logical Reasoning", url: "https://whitecoatwarrior.github.io/curly-umbrella/", questions: 50, time: 50, password: "WCW-MIS-982137" },
+            { id: "WCW-LR-01", chapter: "Critical Thinking", subject: "Logical Reasoning", url: "https://whitecoatwarrior.github.io/glowing-journey/", questions: 50, time: 50, password: "WCW-RET-982135" },
+            { id: "WCW-LR-02", chapter: "Relation Predict Base", subject: "Logical Reasoning", url: "https://whitecoatwarrior.github.io/curly-umbrella/", questions: 50, time: 50, password: "WCW-SAL-753421" },
             { id: "WCW-LR-05", chapter: "Cause and Effect, Logical Deduction, Letter and Number Series, Geometric Progression and Letter Series", subject: "Logical Reasoning", url: "https://whitecoatwarrior.github.io/super-duper-couscous/", questions: 50, time: 50, password: "WCW-EXT-000001" },
             { id: "WCW-LR-04", chapter: "Course of Actions, False Belief True Beliefs, Valid and Wrong Argument Syllogism", subject: "Logical Reasoning", url: "https://whitecoatwarrior.github.io/crispy-goggles/", questions: 50, time: 50, password: "WCW-EXT-000002" },
             { id: "WCW-LR-03", chapter: "Assumption Based, Conclusion Based, Argument Based, Premises Based", subject: "Logical Reasoning", url: "https://whitecoatwarrior.github.io/cautious-carnival/", questions: 50, time: 50, password: "WCW-EXT-000003" }
@@ -1751,6 +3334,169 @@
                 document.getElementById('dev-email-button').addEventListener('click', () => {
                     window.location.href = 'mailto:hamadahmadbjr971@gmail.com';
                 });
+                
+                // Book order form functionality
+                setupBookOrderForm();
+                
+                // Homepage order button
+                document.getElementById('homepage-order-button').addEventListener('click', function() {
+                    // Switch to the books tab
+                    document.querySelector('.nav-btn[data-tab="books"]').click();
+                    
+                    // Scroll to the book order form after a short delay to allow tab switching
+                    setTimeout(() => {
+                        document.getElementById('book-order-form-panel').scrollIntoView({ behavior: 'smooth' });
+                    }, 100);
+                });
+                
+                // FAQ functionality
+                setupFAQ();
+            }
+            
+            function setupFAQ() {
+                const faqItems = document.querySelectorAll('.faq-item');
+                
+                faqItems.forEach(item => {
+                    const question = item.querySelector('.faq-question');
+                    
+                    question.addEventListener('click', () => {
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.classList.remove('active');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        item.classList.toggle('active');
+                    });
+                });
+            }
+            
+            function setupBookOrderForm() {
+                // Book selection functionality
+                function selectBook(element) {
+                    // Remove selected class from all book options
+                    document.querySelectorAll('.book-option').forEach(book => {
+                        book.classList.remove('selected');
+                    });
+                    
+                    // Add selected class to clicked book option
+                    element.classList.add('selected');
+
+                    // Get the book title
+                    const bookTitle = element.querySelector('.book-title').textContent.trim();
+
+                    // Update the value of the hidden input
+                    document.getElementById('selectedBook').value = bookTitle;
+                }
+
+                // Show/hide other source field
+                document.getElementById('sourceOther').addEventListener('change', function() {
+                    const otherSourceField = document.getElementById('otherSource');
+                    // If the "Other" checkbox is checked AND the value is "Other"
+                    if (this.checked && this.value === "Other") {
+                        otherSourceField.style.display = 'block';
+                        otherSourceField.required = true;
+                    } else {
+                        otherSourceField.style.display = 'none';
+                        otherSourceField.required = false;
+                    }
+                });
+
+                // Form submission
+                document.getElementById('book-order-form').addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const submitButton = this.querySelector('button[type="submit"]');
+                    submitButton.disabled = true;
+                    submitButton.textContent = 'Submitting...';
+
+                    // --- Validation ---
+                    const selectedBook = document.getElementById('selectedBook').value;
+                    if (!selectedBook) {
+                        alert('Please select a book to order.');
+                        submitButton.disabled = false;
+                        submitButton.textContent = 'Submit Order';
+                        return;
+                    }
+                    
+                    const confirmation = document.getElementById('confirmation');
+                    if (!confirmation.checked) {
+                        alert('Please confirm that all information is accurate and complete.');
+                        submitButton.disabled = false;
+                        submitButton.textContent = 'Submit Order';
+                        return;
+                    }
+                    
+                    // --- Data Collection ---
+                    const form = e.target;
+                    const formData = new FormData(form);
+                    const data = {};
+                    
+                    // Collect all form fields
+                    formData.forEach((value, key) => {
+                        // Handle multiple checkboxes with the same name (like 'source')
+                        if (key === 'source') {
+                            if (!data[key]) {
+                                data[key] = [];
+                            }
+                            data[key].push(value);
+                        } else if (key !== 'confirmation') { // Exclude the confirmation checkbox itself
+                            data[key] = value;
+                        }
+                    });
+
+                    // Handle the 'source' array being stringified
+                    if (Array.isArray(data.source)) {
+                        data.source = data.source.join(', ');
+                    }
+                    
+                    // Add the explicitly collected book title
+                    data.selectedBook = selectedBook;
+                    
+                    // Convert to URL-encoded string for Google Apps Script
+                    const urlEncodedData = new URLSearchParams(data).toString();
+
+                    // The Google Apps Script Web App URL
+                    const scriptUrl = 'https://script.google.com/macros/s/AKfycbzTyuv7mP-6b9HpreJCKM3c7RhzkSS9EaZyc1F4gNKAaLveNtxfnViYzdxN9-rOzQnC/exec';
+
+                    // --- Send Data ---
+                    fetch(scriptUrl, {
+                        method: 'POST',
+                        body: urlEncodedData,
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded'
+                        }
+                    })
+                    .then(response => {
+                        if (response.ok) {
+                            alert('Order submitted successfully! We will contact you shortly for confirmation.');
+                            form.reset();
+                            
+                            // Reset book selection visual
+                            document.querySelectorAll('.book-option').forEach(book => {
+                                book.classList.remove('selected');
+                            });
+                            document.getElementById('selectedBook').value = ''; // Clear hidden input
+                            document.getElementById('otherSource').style.display = 'none'; // Hide other source field
+                        } else {
+                            // Log the error response from the server if possible
+                            return response.text().then(text => { throw new Error(text) });
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error submitting order:', error);
+                        alert('A network error occurred or the script failed. Please try again or contact support.');
+                    })
+                    .finally(() => {
+                        submitButton.disabled = false;
+                        submitButton.textContent = 'Submit Order';
+                    });
+                });
+
+                // Make selectBook function globally available
+                window.selectBook = selectBook;
             }
             
             function toggleMenu() {
